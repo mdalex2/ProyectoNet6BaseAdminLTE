@@ -9,5 +9,6 @@ namespace ProyectoNet6BaseAdminLTE.AccesoDatos.Repositorio.IRepositorio
     public interface IUnidadTrabajo : IAsyncDisposable
     {
         IBodegaRepositorio Bodega { get; }
+        
     }
 }
